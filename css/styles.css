@@ -128,51 +128,32 @@ h1, h2, h3 {
 }
 .land-section{
     vertical-align: top;
-    /* padding-left: 10%;  */
+    padding-left: 10%; 
 }
 .welcome-box {
-    /* max-width: 650px;
-    text-align: left; */
-
+    padding-bottom: 3.5%;
+    max-width: 790px;
+    text-align: left;
     vertical-align: top;
     margin-bottom: 20px;
-    padding: 0 10%;
-    text-align: center;
 }
 .slogan-text{
     display: inline-block;
     color: #fff;
-
-
-    /* position: relative;
-    left: 300px; */
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 4.5rem;
     line-height: 4.5rem;
-    max-width: 700px;
 }
-/* .welcome-img{
+.welcome-img{
     vertical-align: top;
     display: inline-block;
     position: absolute;
-    right: 8%; 
+    left: 70%; 
     top: 100px;
-    width: 250px;
+    width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-} */
+}
 
-.test-chicken{
-    display: inline-block;
-    height: 270px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-    vertical-align: top;
-}
-.test-chicken2{
-    display: inline-block;
-    height: 270px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-    vertical-align: top;
-}
 
 
 
@@ -266,8 +247,10 @@ h1, h2, h3 {
     padding: 0 10%;
 }
 .product-head{
-    max-width: 75%;
-    margin: 50px 15% 0;
+    width: 776px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
     margin-bottom: 75px;
     background-color: #53c1d1;
     color: #fff;
@@ -342,6 +325,9 @@ h1, h2, h3 {
     text-align: center;
     padding: 0 25px;
 }
+.second-row{
+    padding: 0 15%;
+}
 
 
 
@@ -350,7 +336,7 @@ h1, h2, h3 {
 .contact-page{
     min-height: 100vh;
     position: relative;    
-    background-image: url(../images/pictures/website\ background.png);
+    background-color: #d2f2f9;
     background-size: cover;
     background-position: top;
     color: #0e94ab;
@@ -386,6 +372,7 @@ h1, h2, h3 {
 .contact-link:hover {
     color: #0e94ab;
 }
+
 /* .logo{
     display: inline-block;
     position: relative;

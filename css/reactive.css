@@ -5,11 +5,10 @@
     .reviews-content {
         padding: 0 12%; 
     }
-    .map{
-        margin-left: 8%;
-    }
     .welcome-img{
-        right: 8%;
+        left: 74%;
+        top: 130px;
+        width: 270px;
     }
     .features{
         padding: 20px 10% 0; 
@@ -105,9 +104,17 @@
     .features{
         padding: 20px 10% 0; 
     }
-    
-
+    .second-row{
+        padding: 0;
+    }
 }
+@media (max-width:969px){
+    .product-head{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
 
 
 @media (max-width:900px) {
@@ -138,7 +145,7 @@
 
 @media (max-width:850px) {
     .land-section{
-        padding: 50px 9% 0;
+        padding: 0 9% 0;
     }
     .slogan-text{
         font-size: 4rem;
@@ -159,19 +166,13 @@
     }
 }
 
-@media (max-width:800px){
 
-    .product-head{
-        max-width: 90%;
-        margin: 30px 5%;
-    }
-}
 
 
 
 @media (max-width:640px){
     .land-section{
-        padding: 50px 7% 0;
+        padding: 0 7% 0;
     }
     .welcome-box{
         text-align: center;
@@ -187,7 +188,7 @@
     }
     .products-content {
         text-align: center;
-        padding: 30px 5% 0;
+        padding: 0 5% 0;
     }
     .product-description{
         margin-left: 0;
@@ -199,7 +200,7 @@
 
 @media (max-width:550px) {
     .land-section{
-        padding: 20px 3% 30px;
+        padding: 0 3% 30px;
     }
     .slogan-text{
         line-height: 4rem;
