@@ -1,0 +1,338 @@
+/* Media Queries */
+
+
+@media (max-width: 1375px){
+    .contact-box {
+        padding-left: 12%; 
+        padding-right: 12%; 
+    }
+    .reviews-content {
+        padding: 0 12%; 
+    }
+    #order{
+        padding: 75px 2% 75px 10%;
+    }
+    .map1{
+        margin-left: 8%;
+    }
+    .welcome-img{
+        right: 8%;
+    }
+    .features{
+        padding: 20px 10% 0; 
+    }
+
+}
+
+
+@media (max-width:1250px){
+    #order{
+        padding: 75px 2% 75px 8%;
+    }
+    .map1{
+        margin-left: 6%;
+    }
+    .features{
+        padding: 20px 10% 0; 
+    }
+}
+
+
+  
+@media (max-width: 1225px){
+    .contact-box {
+        padding-left: 10%; 
+        padding-right: 10%; 
+    }
+    .reviews-content {
+        padding: 0 11%; 
+    }
+    #order{
+        padding: 75px 2% 75px 8%;
+    }
+    .contact-form{
+        width: 350px;
+    }
+    .logo{
+        left: 130px;
+    }
+    .welcome-img{
+        display: none;
+    }
+    .land-section{
+        padding-left: 12%;
+    }
+} 
+
+
+
+@media (max-width:1050px){
+    .logo{
+        left: 50px;
+        width: 300px;
+    }
+    .contact-form{
+        width: 500px;
+    }
+    #order{
+        padding: 75px 2% 50px 10%;
+    }
+    /* .brand-pic{
+        top: 50px;
+        margin-bottom: 20px;
+    } */
+}
+
+
+
+@media (max-width:1000px){
+    .logo{
+        display: none;
+    }
+    #order{
+        padding: 50px 12%;
+    }
+    .reviews-content {
+        padding: 0 10%; 
+    }
+    .contact-box {
+        padding-left: 12%; 
+        padding-right: 12%; 
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width:991px){
+    .reviews-content{
+        padding: 0 8%;
+    }
+    .features{
+        padding: 20px 10% 0; 
+    }
+    /* .about-content {
+        display:table;    
+    } */
+    /* .about-img {
+        display:table-footer-group;
+    }
+    .about-text {
+        display:table-header-group;
+    } */
+
+}
+
+
+
+
+
+
+@media (max-width:850px) {
+    .land-section{
+        padding: 50px 9% 0;
+    }
+    .slogan-text{
+        font-size: 4rem;
+    }
+    .features{
+        padding: 20px 10% 0; 
+    }
+    .logo{
+        position: inherit;
+        display: inline-block;
+        margin-top: 75px;
+    }
+    .about-text-box{
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width:800px){
+
+    .product-head{
+        max-width: 90%;
+        margin: 0 5% 50px 5%;
+    }
+}
+
+
+
+@media (max-width:640px){
+    .land-section{
+        padding: 50px 7% 0;
+    }
+    .welcome-box{
+        text-align: center;
+    }
+    .contact-form{
+        width: auto;
+    }
+    .reviews-content {
+        padding: 0 7%; 
+    }
+    .contact-box {
+        padding-left: 7%; 
+        padding-right: 7%; 
+    }
+    #order{
+        padding: 50px 7%;
+    }
+    input[type=text], input[type=tel], input[type=email], select {
+        width: 80%;
+    }
+    .features{
+        padding: 20px 10% 0; 
+    }
+    .about-img{
+        max-width: 100%;
+    }
+    .products-content {
+        text-align: center;
+        padding: 30px 5% 0;
+    }
+    .product-description{
+        margin-left: 0;
+    }
+}
+
+
+
+
+@media (max-width:550px) {
+    .land-section{
+        padding: 20px 3% 30px;
+    }
+    .slogan-text{
+        line-height: 4rem;
+        font-size: 3rem;
+    }
+    .welcome-img{
+        position: inherit;
+        display: inline-block;
+        width: 80%;
+        margin: 0 10%;
+    }
+    .brand-pic{
+        display: none;
+    }
+    .nav-brand{
+        display: inline;
+    }
+    .logo{
+        width: 80%;
+        margin: 75px 10% 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Height */
+
+/* About Page is non scroll tot 640px */
+
+@media (max-height:750px) {
+    .about-img{
+        max-width: 350px;
+    }
+    .about-content{
+        padding: 0 15% 0 10%;
+    }
+}
+
+@media (max-height:690px) {
+    .about-img{
+        max-width: 300px;
+    }
+    .about-paragraph{
+        font-size: 19px;
+    }
+    .about-button-box{
+        padding: 25px 0 10px 0;
+    }
+}
+
+@media (max-height:650px) {
+    .about-text-box{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+@media (max-height: 640px), 
+       screen and (max-width: 1170px) {
+        .about-content{
+            padding: 0 10%;
+        }
+        .about-text{
+            width: 60%;
+        }
+}
+
+
+@media (max-height:650px) {
+    @media (max-width:960px){
+        .about-content {
+            display:table;    
+        } 
+        .about-img {
+            display:table-footer-group;
+        }
+        .about-text {
+            display:table-header-group;
+        }
+        .about-content{
+            padding: 30px 30% 0 10%;
+        }
+        .about-text{
+            width: 50%;
+        }
+        .about-text{
+            left: 0;
+        }
+        .about-button-box{
+            padding: 25px 0 30px 0;
+        }
+        
+    }
+    @media (max-width:690px){
+        .about-content{
+            padding: 30px 10% 0;
+        }
+        .about-text{
+            width: 100%;
+        }
+        
+    }
+    @media (max-width:520px){
+        .about-content{
+            padding: 30px 5% 0;
+        }
+    }
+    @media (max-width:460px){
+        .about-buttons{
+            margin-bottom: 15px;
+        }
+        .about-button-box{
+            padding: 25px 0 0 0;
+        }
+    }
+    @media (max-width:400px){
+        .about-img{
+            max-width: 100%; 
+        }
+    }
+}
+
