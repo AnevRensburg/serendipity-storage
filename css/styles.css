@@ -217,10 +217,10 @@ h1, h2, h3 {
 .about-page{
     position: relative;
     min-height: 100vh;
-    background-image: url(../images/pictures/website\ background.png);
+    background-color: #53c1d1;    
     background-size: cover;
     background-position: top;
-    color: #0e94ab;
+    color: #fff;
 }
 .about-content{
     vertical-align: top;
@@ -267,7 +267,7 @@ h1, h2, h3 {
 }
 .product-head{
     max-width: 75%;
-    margin: 0 15%;
+    margin: 50px 15% 0;
     margin-bottom: 75px;
     background-color: #53c1d1;
     color: #fff;
@@ -276,7 +276,7 @@ h1, h2, h3 {
 .product-row{
     text-align: center;
     padding: 0 auto;
-    margin-bottom: 100px; 
+    margin-bottom: 60px; 
 }
 .image-container{
     border: 5px solid #53c1d1;
@@ -333,11 +333,14 @@ h1, h2, h3 {
     padding-right: 15%;
 }
 .review-head{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+.review-name{
+    margin-top: 25px;
 }
 .review-box {
     text-align: center;
-    padding: 0 25px 25px 25px;
+    padding: 0 25px;
 }
 
 
@@ -445,7 +448,7 @@ input[type=submit]:active {
     transform: translateY(3px);
 }
 
-.map1{
+.map{
     display: inline-block;
     /* box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
     vertical-align: top;

@@ -2,17 +2,10 @@
 
 
 @media (max-width: 1375px){
-    .contact-box {
-        padding-left: 12%; 
-        padding-right: 12%; 
-    }
     .reviews-content {
         padding: 0 12%; 
     }
-    #order{
-        padding: 75px 2% 75px 10%;
-    }
-    .map1{
+    .map{
         margin-left: 8%;
     }
     .welcome-img{
@@ -26,32 +19,31 @@
 
 
 @media (max-width:1250px){
-    #order{
-        padding: 75px 2% 75px 8%;
-    }
-    .map1{
+    .map{
         margin-left: 6%;
     }
     .features{
         padding: 20px 10% 0; 
+    }
+    .about-buttons{
+        margin-bottom: 15px;
+    }
+    .about-button-box{
+        padding: 25px 0 0 0;
+    }
+    .about-content{
+        padding: 20px 0 0 5%;
+    }
+    .about-img{
+        max-width: 350px;
     }
 }
 
 
   
 @media (max-width: 1225px){
-    .contact-box {
-        padding-left: 10%; 
-        padding-right: 10%; 
-    }
     .reviews-content {
         padding: 0 11%; 
-    }
-    #order{
-        padding: 75px 2% 75px 8%;
-    }
-    .contact-form{
-        width: 350px;
     }
     .logo{
         left: 130px;
@@ -64,18 +56,29 @@
     }
 } 
 
-
+@media (max-width:1170px){
+    .review-box {
+        padding: 0 15px;
+    }
+    .reviews-content{
+        padding-left: 10%; 
+        padding-right: 10%;
+    }
+}
+@media (max-width:1060px){
+    .review-box {
+        padding: 0 10px;
+    }
+    .reviews-content{
+        padding-left: 5%; 
+        padding-right: 5%;
+    }
+}
 
 @media (max-width:1050px){
     .logo{
         left: 50px;
         width: 300px;
-    }
-    .contact-form{
-        width: 500px;
-    }
-    #order{
-        padding: 75px 2% 50px 10%;
     }
     /* .brand-pic{
         top: 50px;
@@ -89,17 +92,8 @@
     .logo{
         display: none;
     }
-    #order{
-        padding: 50px 12%;
-    }
     .reviews-content {
         padding: 0 10%; 
-    }
-    .contact-box {
-        padding-left: 12%; 
-        padding-right: 12%; 
-        margin-top: 25px;
-        margin-bottom: 50px;
     }
 
 }
@@ -111,16 +105,30 @@
     .features{
         padding: 20px 10% 0; 
     }
-    /* .about-content {
+    
+
+}
+
+
+@media (max-width:900px) {
+    .about-content {
         display:table;    
-    } */
-    /* .about-img {
+    } 
+    .about-img {
         display:table-footer-group;
     }
     .about-text {
         display:table-header-group;
-    } */
-
+    }
+    .about-img{
+        max-width: 400px;
+    }
+    .about-content{
+        padding: 20px 10% 0 10%;
+    }
+    .about-text{
+        left: 0;
+    }
 }
 
 
@@ -146,14 +154,16 @@
     .about-text-box{
         margin-bottom: 15px;
     }
-
+    .reviews-content{
+        margin-top: 30px;
+    }
 }
 
 @media (max-width:800px){
 
     .product-head{
         max-width: 90%;
-        margin: 0 5% 50px 5%;
+        margin: 30px 5%;
     }
 }
 
@@ -166,21 +176,8 @@
     .welcome-box{
         text-align: center;
     }
-    .contact-form{
-        width: auto;
-    }
     .reviews-content {
         padding: 0 7%; 
-    }
-    .contact-box {
-        padding-left: 7%; 
-        padding-right: 7%; 
-    }
-    #order{
-        padding: 50px 7%;
-    }
-    input[type=text], input[type=tel], input[type=email], select {
-        width: 80%;
     }
     .features{
         padding: 20px 10% 0; 
@@ -271,8 +268,8 @@
 
 
 
-@media (max-height: 640px), 
-       screen and (max-width: 1170px) {
+@media (max-height: 640px){
+       @media (max-width: 1170px) {
         .about-content{
             padding: 0 10%;
         }
@@ -280,7 +277,7 @@
             width: 60%;
         }
 }
-
+}
 
 @media (max-height:650px) {
     @media (max-width:960px){
