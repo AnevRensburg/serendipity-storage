@@ -1,7 +1,6 @@
 /* Media Queries */
 
 
-
 /* Height between 750 - 789 */
 
 @media screen and (max-height:790px),
@@ -44,7 +43,6 @@
 @media screen and (max-height:750px),
         screen and (max-height:700px){
 
-    @media (max-width:1440px){
         .review-head{
             margin-bottom: 10px;
         }
@@ -54,7 +52,7 @@
         .reviews-content p{
             margin: 10px;
         }
-    }   
+
     @media (max-width:1200px){
         .reviews-content{
             padding: 0 9%; 
@@ -119,6 +117,9 @@
 } */
 
 
+
+/* 767px Width; The same for any Height*/
+
 @media (max-width: 767px){
     .review-head{
         display: inline-block;
@@ -154,18 +155,6 @@
     }
 } 
 
-
-
-
-
-
-
-
-/* 767px Width; The same for any Height*/
-
-
-
-
 /* NEW */
 
 
@@ -181,14 +170,164 @@
 
 
 
-@media (max-height:750px){
-    .about-img{
-        max-width: 350px;
+
+
+
+
+
+
+
+
+/* About */
+
+/* Height between 750 - 789 */
+
+@media screen and (max-height:790px),
+        screen and (max-height:750px){
+
+    @media (max-width:1250px){
+        .about-content{
+            padding: 20px 0 0 5%;
+        }
+        .about-img{
+            max-width: 350px;
+        }
+        .about-button{
+            margin: 25px 0 0 0;
+        }
     }
+
+}
+
+/* Height between 690 - 750 */
+
+
+@media screen and (max-height:750px),
+        screen and (max-height:690px){
+
+        .about-img{
+            max-width: 350px;
+        }
+        .about-content{
+            padding: 0 15% 0 11%;
+        }
+    
+    @media (max-width:1150px){
+        .about-content{
+            padding: 20px 5% 0;
+        }
+        .about-img{
+            max-width: 300px;
+            margin-top: 15px;
+        }
+        .about-paragraph{
+            font-size: 18px;
+        }
+        .about-text-box{
+            margin-bottom: 15px;
+        }
+    }    
+} 
+
+ 
+
+
+@media screen and (max-height:690px),
+        screen and (max-height:650px){
+
+        .about-img{
+            max-width: 300px;
+            margin-top: 0;
+        }
+        .about-paragraph{
+            font-size: 18px;
+        }
+        .about-text-box{
+            margin-bottom: 15px;
+        }
+        .about-button{
+            margin: 25px 0 0 0;
+        }
+
+    @media (max-width: 1170px) {
+        .about-content{
+            padding: 0 5% 0;
+        }
+        .about-img{
+            max-width: 300px;
+            margin-top: 15px;
+        }
+        .about-paragraph{
+            font-size: 18px;
+        }
+        .about-text-box{
+            margin-bottom: 15px;
+        }
+    }    
+}
+
+
+
+/* 900px Width; The same for any Height*/
+
+@media (max-width:930px) {
     .about-content{
-        padding: 0 15% 0 10%;
+        padding: 20px 10% 0 10%;
+        display:table;    
+    }
+    .about-img {
+        display:table-footer-group;
+    }
+    .about-text {
+        display:table-header-group;
+    }
+    .about-img{
+        max-width: 400px;
+        margin: 40px 0 20px 0;
+    }
+    .about-text{
+        left: 0;
+    }
+    .about-button{
+        margin: 25px 0 0 0;
     }
 }
+@media (max-width:600px){
+    .about-img{
+        max-width: 100%;
+    }
+} 
+@media (max-width:520px){
+    .about-content{
+        padding: 30px 5% 0;
+    }
+}
+
+/* About End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -212,18 +351,6 @@
     }
     .features{
         padding: 20px 10% 0; 
-    }
-    .about-buttons{
-        margin-bottom: 15px;
-    }
-    .about-button-box{
-        padding: 25px 0 0 0;
-    }
-    .about-content{
-        padding: 20px 0 0 5%;
-    }
-    .about-img{
-        max-width: 350px;
     }
 }
 
@@ -266,26 +393,7 @@
     }
 }
 
-@media (max-width:900px) {
-    .about-content {
-        display:table;    
-    } 
-    .about-img {
-        display:table-footer-group;
-    }
-    .about-text {
-        display:table-header-group;
-    }
-    .about-img{
-        max-width: 400px;
-    }
-    .about-content{
-        padding: 20px 10% 0 10%;
-    }
-    .about-text{
-        left: 0;
-    }
-}
+
 
 @media (max-width:850px) {
     .land-section{
@@ -302,10 +410,6 @@
         display: inline-block;
         margin-top: 75px;
     }
-    .about-text-box{
-        margin-bottom: 15px;
-    }
-
 }
 
 @media (max-width:640px){
@@ -317,9 +421,6 @@
     }
     .features{
         padding: 20px 10% 0; 
-    }
-    .about-img{
-        max-width: 100%;
     }
     .products-content {
         text-align: center;
@@ -359,91 +460,3 @@
 
 
 
-/* About */
-
-
-@media (max-height:690px) {
-    .about-img{
-        max-width: 300px;
-    }
-    .about-paragraph{
-        font-size: 19px;
-    }
-    .about-button-box{
-        padding: 25px 0 10px 0;
-    }
-}
-
-@media (max-height:650px) {
-    .about-text-box{
-        margin-bottom: 20px;
-    }
-}
-
-
-
-
-@media (max-height: 640px){
-       @media (max-width: 1170px) {
-        .about-content{
-            padding: 0 10%;
-        }
-        .about-text{
-            width: 60%;
-        }
-}
-}
-
-@media (max-height:650px) {
-    @media (max-width:960px){
-        .about-content {
-            display:table;    
-        } 
-        .about-img {
-            display:table-footer-group;
-        }
-        .about-text {
-            display:table-header-group;
-        }
-        .about-content{
-            padding: 30px 30% 0 10%;
-        }
-        .about-text{
-            width: 50%;
-        }
-        .about-text{
-            left: 0;
-        }
-        .about-button-box{
-            padding: 25px 0 30px 0;
-        }
-        
-    }
-    @media (max-width:690px){
-        .about-content{
-            padding: 30px 10% 0;
-        }
-        .about-text{
-            width: 100%;
-        }
-        
-    }
-    @media (max-width:520px){
-        .about-content{
-            padding: 30px 5% 0;
-        }
-    }
-    @media (max-width:460px){
-        .about-buttons{
-            margin-bottom: 15px;
-        }
-        .about-button-box{
-            padding: 25px 0 0 0;
-        }
-    }
-    @media (max-width:400px){
-        .about-img{
-            max-width: 100%; 
-        }
-    }
-}
