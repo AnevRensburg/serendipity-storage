@@ -299,10 +299,57 @@
         display: none;
     }
 }
+@media screen and (max-height:700px),
+        screen and (max-height:650px){
+
+    .contact-catag {
+        padding-bottom: 0.3em;
+    }
+    .contact-value{
+        padding-bottom: 0.3em;   
+    }
+    input[type=text], input[type=tel], input[type=email], textarea, select {
+        margin-bottom: 9px;
+    }
+    .map1{
+        display: none;
+    } 
+    .map2{
+        display: none;
+    } 
+    .map4{
+        display: none;
+    }        
+    .map3{
+        display: inline-block;
+    }
+
+
+    @media (max-width:1150px){
+        .map3{
+            display: none;
+        }        
+        .map4{
+            display: inline-block;
+        }
+    }
+}
 
 /* 1000px Width; The same for any Height*/
 
 @media (max-width: 1000px){
+    .contact-head{
+        display: block;
+    }
+    input[type=text], input[type=tel], input[type=email], textarea, select {
+        margin-bottom: 20px;
+    }
+    .contact-catag {
+        padding-bottom: 0.5em;
+    }
+    .contact-value{
+        padding-bottom: 0.5em;   
+    }
     .contact-box{
         padding-left: 10%;
         margin-top: 50px;
@@ -315,7 +362,13 @@
     }
     .map2{
         display: none;
+    } 
+    .map3{
+        display: none;
     }        
+    .map4{
+        display: none;
+    } 
     .map1{
         display: inline-block;
         margin-top: 30px;

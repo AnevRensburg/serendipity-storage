@@ -445,6 +445,18 @@ input[type=submit]:active {
     vertical-align: top;
 }
 
+.map3{
+    margin-top: 30px;
+    display: none;
+    vertical-align: top;
+}
+
+.map4{
+    margin-top: 30px;
+    display: none;
+    vertical-align: top;
+}
+
 /* Copyright */
 
 #content-wrap {
