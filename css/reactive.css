@@ -1,7 +1,124 @@
 /* Media Queries */
 
 
-/* Height between 750 - 789 */
+/* About */
+
+@media screen and (max-height:790px),
+        screen and (max-height:750px){
+
+    @media (max-width:1250px){
+        .about-content{
+            padding: 20px 0 0 5%;
+        }
+        .about-img{
+            max-width: 350px;
+        }
+        .about-button{
+            margin: 25px 0 0 0;
+        }
+    }
+
+}
+
+@media screen and (max-height:750px),
+        screen and (max-height:690px){
+
+        .about-img{
+            max-width: 350px;
+        }
+        .about-content{
+            padding: 0 15% 0 11%;
+        }
+    
+    @media (max-width:1150px){
+        .about-content{
+            padding: 20px 5% 0;
+        }
+        .about-img{
+            max-width: 300px;
+            margin-top: 15px;
+        }
+        .about-paragraph{
+            font-size: 18px;
+        }
+        .about-text-box{
+            margin-bottom: 15px;
+        }
+    }    
+} 
+
+@media screen and (max-height:690px),
+        screen and (max-height:650px){
+
+        .about-img{
+            max-width: 300px;
+            margin-top: 0;
+        }
+        .about-paragraph{
+            font-size: 18px;
+        }
+        .about-text-box{
+            margin-bottom: 15px;
+        }
+        .about-button{
+            margin: 25px 0 0 0;
+        }
+
+    @media (max-width: 1170px) {
+        .about-content{
+            padding: 0 5% 0;
+        }
+        .about-img{
+            max-width: 300px;
+            margin-top: 15px;
+        }
+        .about-paragraph{
+            font-size: 18px;
+        }
+        .about-text-box{
+            margin-bottom: 15px;
+        }
+    }    
+}
+
+/* 900px Width; The same for any Height*/
+
+@media (max-width:930px) {
+    .about-content{
+        padding: 20px 10% 0 10%;
+        display:table;    
+    }
+    .about-img {
+        display:table-footer-group;
+    }
+    .about-text {
+        display:table-header-group;
+    }
+    .about-img{
+        max-width: 400px;
+        margin: 40px 0 20px 0;
+    }
+    .about-text{
+        left: 0;
+    }
+    .about-button{
+        margin: 25px 0 0 0;
+    }
+}
+@media (max-width:600px){
+    .about-img{
+        max-width: 100%;
+    }
+} 
+@media (max-width:520px){
+    .about-content{
+        padding: 30px 5% 0;
+    }
+}
+
+
+
+/* Reviews Page */
 
 @media screen and (max-height:790px),
         screen and (max-height:750px){
@@ -109,15 +226,6 @@
     }
 }
 
-/* @media screen and (max-height:700px),
-        screen and (max-height:650px){
-    .reviews-page{
-        background-color: PINK;
-    } 
-} */
-
-
-
 /* 767px Width; The same for any Height*/
 
 @media (max-width: 767px){
@@ -155,168 +263,87 @@
     }
 } 
 
-/* NEW */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* About */
-
-/* Height between 750 - 789 */
+/* Contact Page */
 
 @media screen and (max-height:790px),
         screen and (max-height:750px){
 
-    @media (max-width:1250px){
-        .about-content{
-            padding: 20px 0 0 5%;
+    @media (max-width:1260px){
+        .contact-box{
+            vertical-align: top;
+            padding-left: 5%;
         }
-        .about-img{
-            max-width: 350px;
-        }
-        .about-button{
-            margin: 25px 0 0 0;
+        #order{
+            left: 50px;
         }
     }
-
+    @media (max-width:1150px){
+        .map1{
+            display: none;
+        }        
+        .map2{
+            display: inline-block;
+        }
+    }
 }
 
-/* Height between 690 - 750 */
 
 
 @media screen and (max-height:750px),
-        screen and (max-height:690px){
+        screen and (max-height:700px){
 
-        .about-img{
-            max-width: 350px;
-        }
-        .about-content{
-            padding: 0 15% 0 11%;
-        }
-    
-    @media (max-width:1150px){
-        .about-content{
-            padding: 20px 5% 0;
-        }
-        .about-img{
-            max-width: 300px;
-            margin-top: 15px;
-        }
-        .about-paragraph{
-            font-size: 18px;
-        }
-        .about-text-box{
-            margin-bottom: 15px;
-        }
-    }    
-} 
-
- 
-
-
-@media screen and (max-height:690px),
-        screen and (max-height:650px){
-
-        .about-img{
-            max-width: 300px;
-            margin-top: 0;
-        }
-        .about-paragraph{
-            font-size: 18px;
-        }
-        .about-text-box{
-            margin-bottom: 15px;
-        }
-        .about-button{
-            margin: 25px 0 0 0;
-        }
-
-    @media (max-width: 1170px) {
-        .about-content{
-            padding: 0 5% 0;
-        }
-        .about-img{
-            max-width: 300px;
-            margin-top: 15px;
-        }
-        .about-paragraph{
-            font-size: 18px;
-        }
-        .about-text-box{
-            margin-bottom: 15px;
-        }
-    }    
+    .contact-head{
+        display: none;
+    }
 }
 
+/* 1000px Width; The same for any Height*/
 
-
-/* 900px Width; The same for any Height*/
-
-@media (max-width:930px) {
-    .about-content{
-        padding: 20px 10% 0 10%;
-        display:table;    
+@media (max-width: 1000px){
+    .contact-box{
+        padding-left: 10%;
+        margin-top: 50px;
     }
-    .about-img {
-        display:table-footer-group;
-    }
-    .about-text {
-        display:table-header-group;
-    }
-    .about-img{
-        max-width: 400px;
-        margin: 40px 0 20px 0;
-    }
-    .about-text{
+    #order{
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 25px;
         left: 0;
     }
-    .about-button{
-        margin: 25px 0 0 0;
-    }
-}
-@media (max-width:600px){
-    .about-img{
-        max-width: 100%;
+    .map2{
+        display: none;
+    }        
+    .map1{
+        display: inline-block;
+        margin-top: 30px;
     }
 } 
-@media (max-width:520px){
-    .about-content{
-        padding: 30px 5% 0;
+@media (max-width: 720px){
+    .contact-box{
+        padding-left: 5%;
     }
-}
-
-/* About End */
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .map1{
+        display: none;
+    }        
+    .map2{
+        display: inline-block;
+    }
+} 
+@media (max-width: 520px){ 
+    .contact-box{
+        padding-left: 5%;
+        padding-right: 5%;
+    }  
+    .map2{
+        display: none;
+    }
+    #order{
+        width: 100%;
+    }
+} 
 
 
 
@@ -346,9 +373,6 @@
 }
 
 @media (max-width:1250px){
-    .map{
-        margin-left: 6%;
-    }
     .features{
         padding: 20px 10% 0; 
     }
@@ -455,7 +479,7 @@
         width: 80%;
         margin: 75px 10% 0;
     }
-}
+} 
 
 
 

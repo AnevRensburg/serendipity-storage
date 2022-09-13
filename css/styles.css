@@ -330,10 +330,10 @@ h1, h2, h3 {
     display: none !important; 
 }
 .view-more-btn{
-    margin: 50px auto;
+    margin: 50px auto 20px;
 }
 .view-less-btn{
-    margin: 50px auto;
+    margin: 50px auto 20px;
 }
 
 
@@ -351,7 +351,6 @@ h1, h2, h3 {
 .contact-box{
     vertical-align: top;
     padding-left: 10%;
-    padding-right: 10%;
 }
 .contact-head{
     color: #0e94ab;
@@ -393,13 +392,7 @@ h1, h2, h3 {
     display: inline-block;
     position: relative;
     left: 100px;
-    width: 350px;
-}
-.contact-form{
-    color: #0e94ab;
-    display: inline-block;
     width: 400px;
-    border-radius: 5px;
 }
 
 label{
@@ -442,12 +435,15 @@ input[type=submit]:active {
     transform: translateY(3px);
 }
 
-.map{
+.map1{
     display: inline-block;
-    /* box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
     vertical-align: top;
 }
 
+.map2{
+    display: none;
+    vertical-align: top;
+}
 
 /* Copyright */
 
