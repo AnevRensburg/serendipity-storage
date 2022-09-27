@@ -415,9 +415,13 @@
 @media (max-width: 1375px){
 
     .welcome-img{
-        left: 74%;
+        /* left: 74%;
         top: 130px;
         width: 270px;
+         */
+         left: 71%; 
+         top: 100px;
+         width: 370px;
     }
     .features{
         padding: 20px 10% 0; 
@@ -519,8 +523,8 @@
     .welcome-img{
         position: inherit;
         display: inline-block;
-        width: 80%;
-        margin: 0 10%;
+        width: 90%;
+        margin: 0 5%;
     }
     .brand-pic{
         display: none;

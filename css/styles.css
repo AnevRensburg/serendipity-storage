@@ -127,7 +127,7 @@ h1, h2, h3 {
 }
 .land-section{
     vertical-align: top;
-    padding-left: 10%; 
+    padding-left: 7%; 
 }
 .welcome-box {
     padding-bottom: 3%;
@@ -146,9 +146,9 @@ h1, h2, h3 {
     vertical-align: top;
     display: inline-block;
     position: absolute;
-    left: 70%; 
-    top: 100px;
-    width: 275px;
+    left: 65%; 
+    top: 85px;
+    width: 470px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
