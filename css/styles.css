@@ -227,6 +227,9 @@ h1, h2, h3 {
 .about-button{
     margin: 55px 0 0 0;
 }
+.italicized{
+    font-style: italic;
+}
 
 
 
@@ -357,6 +360,7 @@ h1, h2, h3 {
     display: block;
     padding-bottom: 10px;
     margin: 0;
+    font-size: 2rem;
 }
 
 .contact-table {
