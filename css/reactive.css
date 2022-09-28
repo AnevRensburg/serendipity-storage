@@ -291,7 +291,6 @@
 }
 
 
-
 @media screen and (max-height:750px),
         screen and (max-height:700px){
 
@@ -412,19 +411,78 @@
 
 
 
+
+
+
+
+/* Home Page */
+
+@media screen and (max-height:790px),
+        screen and (max-height:750px){
+
+    
+}
+
+
+@media screen and (max-height:750px),
+        screen and (max-height:700px){
+
+    
+}
+@media screen and (max-height:700px),
+        screen and (max-height:650px){
+
+   
+
+}
+
+/* 1000px Width; The same for any Height*/
+
+@media (max-width: 1000px){
+  
+} 
+@media (max-width: 720px){
+    
+} 
+@media (max-width: 520px){ 
+   
+} 
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1375px){
 
     .welcome-img{
-        /* left: 74%;
-        top: 130px;
-        width: 270px;
-         */
-         left: 71%; 
-         top: 100px;
-         width: 370px;
+        right: 2.5%; 
+        top: 80px;
+        width: 450px;
+    }
+    .welcome-box {
+        padding-bottom: 3%;
     }
     .features{
         padding: 20px 10% 0; 
+    }
+
+}
+
+@media (max-width: 1300px){
+
+    .welcome-img{
+        right: 2.5%; 
+        top: 80px;
+        width: 380px;
+    }
+    .welcome-box {
+        padding-bottom: 2%;
     }
 
 }
