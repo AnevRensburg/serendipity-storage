@@ -54,10 +54,10 @@ h1, h2, h3 {
 /* Navigation Bar */
 
 .navbar {
-    padding: 0% 8% 2.5% 6%;
+    padding: 0% 1% 2.5% 6%;
 }
 .brand-pic{
-    width: 320px;
+    width: 300px;
     position: relative;
     top: 35px;
     /* margin-bottom: 15px; */
@@ -127,10 +127,10 @@ h1, h2, h3 {
 }
 .land-section{
     vertical-align: top;
-    padding-left: 7%; 
+    padding-left: 4%; 
 }
 .welcome-box {
-    padding-bottom: 3%;
+    padding-bottom: 6%;
     max-width: 790px;
     text-align: left;
     vertical-align: top;
@@ -146,9 +146,9 @@ h1, h2, h3 {
     vertical-align: top;
     display: inline-block;
     position: absolute;
-    left: 65%; 
-    top: 85px;
-    width: 470px;
+    right: 2.5%; 
+    top: 80px;
+    width: 540px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
