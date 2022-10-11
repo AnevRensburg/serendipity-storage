@@ -258,6 +258,9 @@
     }
     }
     @media (max-width: 500px){
+    .review-head{
+        padding: 0 6%;
+    }
     .reviews-content{
         padding: 0 3%; 
     }
@@ -504,12 +507,7 @@
         line-height: 4rem;
         font-size: 3rem;
     }
-    .welcome-img{
-        position: inherit;
-        display: inline-block;
-        width: 90%;
-        margin: 0 5%;
-    }
+
     .brand-pic{
         display: none;
     }
