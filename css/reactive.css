@@ -81,7 +81,7 @@
     }    
 }
 
-/* 900px Width; The same for any Height*/
+/* 930px Width; The same for any Height*/
 
 @media (max-width:930px) {
     .about-content{
@@ -115,7 +115,6 @@
         padding: 30px 5% 0;
     }
 }
-
 
 
 /* Reviews Page */
@@ -354,7 +353,6 @@
     }
     .contact-box{
         padding-left: 10%;
-        margin-top: 50px;
     }
     #order{
         display: block;
@@ -425,7 +423,12 @@
     .navbar {
         padding-right: 50px;
     }
+    .brand-pic{
+        margin-bottom: 30px;
+    }
 }
+
+
 
 @media screen and (max-height:850px),
         screen and (max-height:789px){
