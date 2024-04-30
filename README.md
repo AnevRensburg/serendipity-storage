@@ -11,7 +11,7 @@ I have designed and implemented this website using Javascript, HTML, CSS with Bo
 **I also have seperate repos for both a demo  and a coming-soon site.**
 
 Demo website for Serendipity Storage.<br>
-[Repo](https://github.com/AnevRensburg/serendipity-demo) | [Website](https://anevrensburg.github.io/serendipity-demo/products.html)
+[Repo](https://github.com/AnevRensburg/serendipity-demo) | [Website](https://anevrensburg.github.io/serendipity-demo/)
 
 Coming-Soon site for Serendipity Storage.<br>
 [Repo](https://github.com/AnevRensburg/serendipity-soon) | [Website](https://anevrensburg.github.io/serendipity-soon/)
